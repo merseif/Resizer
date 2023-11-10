@@ -16,6 +16,8 @@ class Opencv_resizer(Resize):
             
 
 
+
+#for trying the code
 image=Getway.getimage()
 image_resized=Opencv_resizer(200,200,image).resize()
 plt.imshow(image_resized, cmap='gray')
